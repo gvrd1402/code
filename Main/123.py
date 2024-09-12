@@ -6,9 +6,9 @@ import logging
 from pathlib import Path
 
 # hardcoded paths, interval and log
-SOURCE_FOLDER = '/workspaces/code/source'  # Path to the source folder
-REPLICA_FOLDER = '/workspaces/code/replica'  # Path to the replica folder
-LOG_FILE = '/workspaces/code/log.log'  # Path to the log file
+SOURCE_FOLDER = '/workspaces/code/Main/source'  # Path to the source folder
+REPLICA_FOLDER = '/workspaces/code/Main/replica'  # Path to the replica folder
+LOG_FILE = '/workspaces/code/Main/log.log'  # Path to the log file
 SYNC_INTERVAL = 5  # Synchronization interval in seconds
 
 def calculate_md5(file_path):
